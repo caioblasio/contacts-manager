@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given <DetailsComponent /> When it initializes Then should match the snapshot 1`] = `
+<div>
+  <section
+    class="makeStyles-root-1"
+  >
+    <div
+      class="makeStyles-back-6"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M11.67 3.87L9.9 2.1 0 12l9.9 9.9 1.77-1.77L3.54 12z"
+        />
+      </svg>
+      <span
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        Back
+      </span>
+    </div>
+    <section
+      class="makeStyles-content-2"
+    >
+      <section
+        class="makeStyles-list-3"
+      >
+        <section
+          class="makeStyles-root-46"
+        />
+      </section>
+      <section
+        class="makeStyles-details-5"
+      >
+        <h1
+          class="MuiTypography-root makeStyles-title-4 MuiTypography-h6"
+        >
+          Contact Details
+        </h1>
+        loading
+      </section>
+    </section>
+  </section>
+</div>
+`;

@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given <ContactListContainer /> When it initializes Then should match the snapshot 1`] = `
+<div>
+  <section>
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/1"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              L
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Leanne Graham
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Sincere@april.biz
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              1-770-736-8031 x56442
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/2"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              E
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Ervin Howell
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Shanna@melissa.tv
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              010-692-6593 x09125
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/3"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              C
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Clementine Bauch
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Nathan@yesenia.net
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              1-463-123-4447
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/4"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              P
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Patricia Lebsack
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Julianne.OConner@kory.org
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              493-170-9623 x156
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/5"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              C
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Chelsey Dietrich
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Lucio_Hettinger@annie.ca
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              (254)954-1289
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/6"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              M
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Mrs. Dennis Schulist
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Karley_Dach@jasper.info
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              1-477-935-8478 x6430
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/7"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              K
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Kurtis Weissnat
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Telly.Hoeger@billy.biz
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              210.067.6132
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/8"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              N
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Nicholas Runolfsdottir V
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Sherwood@rosamond.me
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              586.493.6943 x140
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/9"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              G
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Glenna Reichert
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Chaim_McDermott@dana.io
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              (775)976-6794 x41206
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+    <hr
+      class="MuiDivider-root"
+    />
+    <div
+      class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        href="/contact/10"
+        role="button"
+        tabindex="0"
+      >
+        <div
+          class="MuiCardContent-root makeStyles-card-2"
+        >
+          <div
+            class="makeStyles-avatar-3"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+            >
+              C
+            </div>
+          </div>
+          <div
+            class="makeStyles-content-4"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Clementina DuBuque
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              Rey.Padberg@karina.biz
+            </p>
+            <p
+              class="MuiTypography-root MuiTypography-body1"
+            >
+              024-648-3804
+            </p>
+          </div>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+  </section>
+</div>
+`;

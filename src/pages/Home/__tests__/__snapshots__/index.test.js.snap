@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given <HomeComponent /> When it initializes Then should match the snapshot 1`] = `
+<div>
+  <section
+    class="makeStyles-root-1"
+  >
+    <h1
+      class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+    >
+      All Contacts
+    </h1>
+    <section />
+    <a
+      href="/new"
+      style="text-decoration: none;"
+    >
+      <button
+        aria-label="add"
+        class="MuiButtonBase-root MuiFab-root makeStyles-floatButton-3 MuiFab-primary"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiFab-label"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </a>
+  </section>
+</div>
+`;
