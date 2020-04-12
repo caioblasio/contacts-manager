@@ -56,6 +56,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: "public/index.html",
+      favicon: `${__root}/public/favicon.ico`,
     }),
   ],
 };

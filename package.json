@@ -1,7 +1,8 @@
 {
-  "name": "liqid-challenge",
+  "name": "contacts-manager",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a sample React application built using Redux state management and Material UI",
+  "homepage": "https://contacts-caioblasio.herokuapp.com/",
   "main": "index.js",
   "engines": {
     "node": "12.16.x"
