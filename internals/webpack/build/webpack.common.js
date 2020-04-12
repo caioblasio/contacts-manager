@@ -10,17 +10,17 @@ const BANNER_METADATA = [
   ` * @version v${pkg.version}`,
   ` * @link ${pkg.homepage}`,
   ` * @license ${pkg.license}`,
-  " */"
+  " */",
 ].join("\n");
 
 module.exports = {
   entry: {
-    src: `${__root}/src/index`
+    src: `${__root}/src/index`,
   },
   output: {
     path: `${__root}/dist`,
     filename: "[name].js",
-    publicPath: "/"
+    publicPath: "/",
   },
   target: "web",
   module: {
@@ -28,34 +28,34 @@ module.exports = {
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: "babel-loader"
+        loader: "babel-loader",
       },
       {
         test: /\.(eot|otf|ttf|woff2?|jpe?g|png|gif|svg)$/,
         loader: "file-loader",
         options: {
           name: "[name].[ext]",
-          outputPath: "media"
-        }
-      }
-    ]
+          outputPath: "media",
+        },
+      },
+    ],
   },
   resolve: {
     modules: [`${__root}/src`, "node_modules"],
-    extensions: [".jsx", ".js"]
+    extensions: [".jsx", ".js"],
   },
   plugins: [
     new DefinePlugin({
-      ENVIRONMENT: process.env.NODE_ENV
+      ENVIRONMENT: JSON.stringify(process.env.NODE_ENV),
     }),
     new BannerPlugin({
       banner: BANNER_METADATA,
       raw: true,
-      entryOnly: true
+      entryOnly: true,
     }),
     new HtmlWebpackPlugin({
       inject: true,
-      template: "public/index.html"
-    })
-  ]
+      template: "public/index.html",
+    }),
+  ],
 };
