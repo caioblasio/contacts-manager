@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.16.x"
+  },
   "scripts": {
     "clean": "npm run clean:build",
     "clean:build": "npx rimraf ./dist",
