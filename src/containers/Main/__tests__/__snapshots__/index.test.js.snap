@@ -31,7 +31,9 @@ exports[`Given <ContactListContainer /> When it initializes Then should match th
       >
         All Contacts
       </h1>
-      <section />
+      <section
+        class="makeStyles-root-77"
+      />
       <a
         href="/new"
         style="text-decoration: none;"

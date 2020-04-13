@@ -2,7 +2,9 @@
 
 exports[`Given <ContactListComponent /> When it initializes Then should match the snapshot 1`] = `
 <div>
-  <section>
+  <section
+    class="makeStyles-root-1"
+  >
     <div
       class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
     >
@@ -14,10 +16,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -26,7 +28,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -44,6 +46,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               1-770-736-8031 x56442
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -67,10 +93,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -79,7 +105,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -97,6 +123,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               010-692-6593 x09125
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -120,10 +170,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -132,7 +182,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -150,6 +200,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               1-463-123-4447
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -173,10 +247,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -185,7 +259,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -203,6 +277,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               493-170-9623 x156
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -226,10 +324,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -238,7 +336,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -256,6 +354,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               (254)954-1289
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -279,10 +401,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -291,7 +413,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -309,6 +431,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               1-477-935-8478 x6430
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -332,10 +478,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -344,7 +490,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -362,6 +508,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               210.067.6132
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -385,10 +555,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -397,7 +567,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -415,6 +585,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               586.493.6943 x140
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -438,10 +632,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -450,7 +644,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -468,6 +662,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               (775)976-6794 x41206
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -491,10 +709,10 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-2"
+          class="MuiCardContent-root makeStyles-card-3"
         >
           <div
-            class="makeStyles-avatar-3"
+            class="makeStyles-avatar-4"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -503,7 +721,7 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
             </div>
           </div>
           <div
-            class="makeStyles-content-4"
+            class="makeStyles-content-5"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -521,6 +739,30 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
               024-648-3804
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -536,7 +778,9 @@ exports[`Given <ContactListComponent /> When it initializes Then should match th
 
 exports[`Given <ContactListComponent /> When it initializes with shortView Then should match the snapshot 1`] = `
 <div>
-  <section>
+  <section
+    class="makeStyles-root-227"
+  >
     <div
       class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
     >
@@ -548,10 +792,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -560,7 +804,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -568,6 +812,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Leanne Graham
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -591,10 +859,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -603,7 +871,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -611,6 +879,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Ervin Howell
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -634,10 +926,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -646,7 +938,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -654,6 +946,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Clementine Bauch
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -677,10 +993,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -689,7 +1005,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -697,6 +1013,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Patricia Lebsack
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -720,10 +1060,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -732,7 +1072,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -740,6 +1080,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Chelsey Dietrich
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -763,10 +1127,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -775,7 +1139,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -783,6 +1147,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Mrs. Dennis Schulist
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -806,10 +1194,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -818,7 +1206,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -826,6 +1214,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Kurtis Weissnat
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -849,10 +1261,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -861,7 +1273,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -869,6 +1281,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Nicholas Runolfsdottir V
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -892,10 +1328,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -904,7 +1340,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -912,6 +1348,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Glenna Reichert
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"
@@ -935,10 +1395,10 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
         tabindex="0"
       >
         <div
-          class="MuiCardContent-root makeStyles-card-190"
+          class="MuiCardContent-root makeStyles-card-229"
         >
           <div
-            class="makeStyles-avatar-191"
+            class="makeStyles-avatar-230"
           >
             <div
               class="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
@@ -947,7 +1407,7 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
             </div>
           </div>
           <div
-            class="makeStyles-content-192"
+            class="makeStyles-content-231"
           >
             <p
               class="MuiTypography-root MuiTypography-body1"
@@ -955,6 +1415,30 @@ exports[`Given <ContactListComponent /> When it initializes with shortView Then 
               Clementina DuBuque
             </p>
           </div>
+          <button
+            class="MuiButtonBase-root MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
         </div>
         <span
           class="MuiCardActionArea-focusHighlight"

@@ -10,7 +10,9 @@ exports[`Given <HomeComponent /> When it initializes Then should match the snaps
     >
       All Contacts
     </h1>
-    <section />
+    <section
+      class="makeStyles-root-34"
+    />
     <a
       href="/new"
       style="text-decoration: none;"

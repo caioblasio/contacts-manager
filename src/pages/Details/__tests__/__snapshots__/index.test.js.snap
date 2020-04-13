@@ -32,7 +32,7 @@ exports[`Given <DetailsComponent /> When it initializes Then should match the sn
         class="makeStyles-list-3"
       >
         <section
-          class="makeStyles-root-46"
+          class="makeStyles-root-46 makeStyles-scrollable-47"
         />
       </section>
       <section
@@ -43,7 +43,7 @@ exports[`Given <DetailsComponent /> When it initializes Then should match the sn
         >
           Contact Details
         </h1>
-        loading
+        Contact not found! :(
       </section>
     </section>
   </section>
