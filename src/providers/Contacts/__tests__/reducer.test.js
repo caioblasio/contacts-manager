@@ -5,7 +5,8 @@ import {
   fetchContactsWaiting,
   fetchContactsFailure,
   fetchContactsSuccess,
-  addContact
+  addContact,
+  deleteContact,
 } from "../actions";
 
 describe("Given contactsReducer", () => {
@@ -71,6 +72,20 @@ describe("Given contactsReducer", () => {
       const action = addContact(data);
       expect(contactsReducer(initialState, action)).toEqual(
         initialState.set("data", initialState.get("data").push(fromJS(data)))
+      );
+    });
+  });
+
+  describe("And receives a deleteContact action", () => {
+    it("Then should delete contact", () => {
+      const id = 1;
+      const initialState = fromJS({ data: [{ id }] });
+      const action = deleteContact(id);
+      expect(contactsReducer(initialState, action)).toEqual(
+        initialState.set(
+          "data",
+          initialState.get("data").filter((s) => s.get("id") !== id)
+        )
       );
     });
   });

@@ -3,21 +3,23 @@ import {
   fetchContactsWaiting,
   fetchContactsFailure,
   fetchContactsSuccess,
-  addContact
+  addContact,
+  deleteContact,
 } from "../actions";
 import {
   FETCH_CONTACTS,
   FETCH_CONTACTS_WAITING,
   FETCH_CONTACTS_SUCCESS,
   FETCH_CONTACTS_FAILURE,
-  ADD_CONTACT
+  ADD_CONTACT,
+  REMOVE_CONTACT,
 } from "../constants";
 
 describe("Given Contacts Action", () => {
   describe("When fetchContacts is called", () => {
     it("Then should create a fetchContacts action", () => {
       const action = {
-        type: FETCH_CONTACTS
+        type: FETCH_CONTACTS,
       };
 
       expect(fetchContacts()).toEqual(action);
@@ -28,7 +30,7 @@ describe("Given Contacts Action", () => {
     it("Then should create a fetchContactsSuccess action", () => {
       const action = {
         type: FETCH_CONTACTS_SUCCESS,
-        payload: []
+        payload: [],
       };
 
       expect(fetchContactsSuccess()).toEqual(action);
@@ -44,7 +46,7 @@ describe("Given Contacts Action", () => {
     it("Then should create a fetchContactsSuccess action", () => {
       const action = {
         type: FETCH_CONTACTS_SUCCESS,
-        payload: data
+        payload: data,
       };
 
       expect(fetchContactsSuccess(data)).toEqual(action);
@@ -54,7 +56,7 @@ describe("Given Contacts Action", () => {
   describe("When fetchContactsFailure is called without arguments", () => {
     it("Then should create a fetchContactsFailure action", () => {
       const action = {
-        type: FETCH_CONTACTS_FAILURE
+        type: FETCH_CONTACTS_FAILURE,
       };
 
       expect(fetchContactsFailure()).toEqual(action);
@@ -70,7 +72,7 @@ describe("Given Contacts Action", () => {
     it("Then should create a fetchContactsFailure action", () => {
       const action = {
         type: FETCH_CONTACTS_FAILURE,
-        payload: error
+        payload: error,
       };
 
       expect(fetchContactsFailure(error)).toEqual(action);
@@ -80,7 +82,7 @@ describe("Given Contacts Action", () => {
   describe("When fetchContactsWaiting is called", () => {
     it("Then should create a fetchContactsWaiting action", () => {
       const action = {
-        type: FETCH_CONTACTS_WAITING
+        type: FETCH_CONTACTS_WAITING,
       };
 
       expect(fetchContactsWaiting()).toEqual(action);
@@ -91,7 +93,7 @@ describe("Given Contacts Action", () => {
     it("Then should create a addContact action", () => {
       const action = {
         type: ADD_CONTACT,
-        payload: {}
+        payload: {},
       };
 
       expect(addContact()).toEqual(action);
@@ -107,10 +109,21 @@ describe("Given Contacts Action", () => {
     it("Then should create a addContact action", () => {
       const action = {
         type: ADD_CONTACT,
-        payload: data
+        payload: data,
       };
 
       expect(addContact(data)).toEqual(action);
+    });
+  });
+
+  describe("When deleteContact is called", () => {
+    it("Then should create a deleteContact action", () => {
+      const action = {
+        type: REMOVE_CONTACT,
+        payload: 1,
+      };
+
+      expect(deleteContact(1)).toEqual(action);
     });
   });
 });

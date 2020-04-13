@@ -1,5 +1,5 @@
 import React from "react";
-import { render, queryByText } from "@testing-library/react";
+import { render, queryByText, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router";
 import ContactListComponent from "components/ContactList";
 import { data } from "__mocks__/api";
@@ -10,11 +10,11 @@ describe("Given <ContactListComponent />", () => {
   let Component;
 
   defaultProps = {
-    data
+    data,
   };
 
   beforeAll(() => {
-    Component = props => (
+    Component = (props) => (
       <MemoryRouter>
         <ContactListComponent {...defaultProps} {...props} />
       </MemoryRouter>
@@ -51,6 +51,19 @@ describe("Given <ContactListComponent />", () => {
     it("Then should not contain email or phone", () => {
       expect(queryByText(component, data[0].email)).toBeNull();
       expect(queryByText(component, data[0].phone)).toBeNull();
+    });
+  });
+
+  describe("When click on delete contact icon", () => {
+    let deleteContact = jest.fn();
+    beforeEach(() => {
+      const { container } = render(<Component deleteContact={deleteContact} />);
+      component = container;
+    });
+
+    it("Should call deleteContact", () => {
+      fireEvent.click(component.querySelector("button"));
+      expect(deleteContact).toHaveBeenCalledWith(1);
     });
   });
 });
