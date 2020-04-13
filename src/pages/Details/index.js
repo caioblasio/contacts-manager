@@ -20,7 +20,7 @@ export const Details = ({ contactId, back }) => {
       </div>
       <section className={classes.content}>
         <section className={classes.list}>
-          <ContactList shortView isScrollable />
+          <ContactList shortView isScrollable isRemovable={false} />
         </section>
         <section className={classes.details}>
           <Typography variant="h6" component="h1" className={classes.title}>
@@ -33,12 +33,12 @@ export const Details = ({ contactId, back }) => {
   );
 };
 
-const mapDispatchToProps = dispatch => ({
-  back: () => dispatch(back())
+const mapDispatchToProps = (dispatch) => ({
+  back: () => dispatch(back()),
 });
 
 Details.propTypes = {
-  back: PropTypes.func.isRequired
+  back: PropTypes.func.isRequired,
 };
 
 export default connect(null, mapDispatchToProps)(Details);

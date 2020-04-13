@@ -6,17 +6,21 @@ import { getContact } from "providers/Contacts/selectors";
 import ContactDetails from "components/ContactDetails";
 
 export const Container = ({ contact }) => {
-  return contact ? <ContactDetails contact={contact} /> : "loading";
+  return contact ? (
+    <ContactDetails contact={contact} />
+  ) : (
+    "Contact not found! :("
+  );
 };
 
 const mapStateToProps = (_state, { id }) => {
   return createStructuredSelector({
-    contact: getContact(id)
+    contact: getContact(id),
   });
 };
 
 Container.propTypes = {
-  contact: PropTypes.object
+  contact: PropTypes.object,
 };
 
 export default connect(mapStateToProps)(Container);
